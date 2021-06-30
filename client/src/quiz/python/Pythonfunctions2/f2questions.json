@@ -1,0 +1,133 @@
+[
+    {
+    "question":"What will be the output of the following Python code?",
+    "question1":"def printMax(a, b) :",
+    "question2": "if a > b :",
+    "question3":" print(a, 'is maximum')",
+    "question4":" elif a == b :",
+    "question5":"  print(a, 'is equal to', b)",
+    "question6":" else:",
+    "question7":"print(b, 'is maximum')",
+    "question8":"printMax(30, 45)",
+      
+    "optionA":"45",
+    "optionB":"30 is maximum",
+    "optionC":"30",
+    "optionD":"45 is maximum",
+    "answer":"45 is maximum"
+    },
+
+    {
+        "question": "What will be output of the Python code?",
+        "question1":"def minimum(x, y) :",
+    "question2": "if x < y :",
+    "question3":" return x",
+    "question4":" elif x == y :",
+    "question5":"  return 'The numbers are equal'",
+    "question6":" else:",
+    "question7":"retun y",
+    "question8":"print(minimum(33, 32))",
+      
+    "optionA":"33",
+    "optionB":"The numbers are equal",
+    "optionC":"32",
+    "optionD":"Error",
+    "answer":"Error"
+    },
+
+    {
+        "question": "What is the output of the following code ",
+        "question1":"def outerFun(x, y) :",
+        "question2": "def innerFun(a,b) :",
+        "question3":" return a + b",
+        "question4":" return innerFun( x, y)",
+        "question8":"res=outerFun(5 , 10)",
+        "question9":"print(res)",
+        "optionA": "15",
+        "optionB": "Syntax Error",
+        "optionC": "15.0",
+        "optionD": "(5,10)",
+        "answer": "15"
+    },
+
+    {
+        "question": "What is the output of the display() function call",
+        "question1":"def display(**kwargs) :",
+        "question2": "for i in kwargs:",
+        "question3":" print( i )",
+        "question8":"display(emp='kelly', salary=9000)",
+        "optionA": "TypeError",
+        "optionB": "kelly \n 9000",
+        "optionC": "('emp' , 'kelly')  \n  ('salary' , 9000)",
+        "optionD": "emp  \n salary",
+        "answer":  "emp  \n salary"
+    },
+
+    {
+        "question": "What will the following Python program print out?",
+        "question1":"def greet(lang) :",
+        "question2": "if lang == 'es' :",
+        "question3":" return 'Hola' ",
+        "question4":" elif lang == 'fr' :",
+        "question5":"  return 'Bonjour' ",
+        "question6":" else:",
+        "question7":"return 'Hello' ",
+        "question8":"print(greet('fr'), 'Michael') ",
+        "optionA": "Bonjour Michael",
+        "optionB": "Hola Michael",
+        "optionC": "Hello Michael   \n   def      \n     Hola",
+        "optionD": "Bonjour        \n           Hello           \n              Michael",
+        "answer": "Bonjour Michael"
+    },
+
+    {
+        "question": "What is the output of the following code snippet:",
+        "question1":"def myfunc(text, num) :",
+        "question2": "while num > 0 :",
+        "question3":" print(text)",
+        "question4":" num = num - 1",
+        "question8":"myfunc('Hello' , 4)",
+        "optionA": "HelloHelloHelloHelloHello ",
+        "optionB": "Invalid call",
+        "optionC": "HelloHelloHelloHello",
+        "optionD": "Infinite loop",
+        "answer": "Infinite loop"
+    },
+
+    {
+        "question": "Guess the output-",
+        "question1":"def main():",
+        "question2": "try :",
+        "question3":" func()",
+        "question5":" print( '' print this after function call ' )",
+        "question6":" except:",
+        "question7":"print('Its an Exception!')",
+        "question8":"def func(  ):",
+        "question9":"main()",
+        "optionA": "'print this after function call' followed by 'Its an Exception!'",
+        "optionB": "Its an Exception!",
+        "optionC": "print this after function call ",
+        "optionD": "Syntax Error",
+        "answer": "Syntax Error"
+    },
+
+    {
+        "question": "What will be the output of the following code?",
+        "question1":">>scores ={'Ayushi' : 97  , 'Megha' : 98}",
+        "question2": "if scores['Ayushi']>97:",
+        "question3":" print('Scholar')",
+        "question4":" elif scores['Megha']>97:",
+        "question5":" print( 'Topper' )",
+        "question6":" else:",
+        "question7":"print('Nobody topped')",
+        "optionA": "Scholar",
+        "optionB": "Topper",
+        "optionC": "Nobody topped",
+        "optionD": "This code raises a KeyError",
+        "answer": "Topper"
+    }
+    
+
+    
+  
+]

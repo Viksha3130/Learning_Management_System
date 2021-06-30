@@ -1,0 +1,94 @@
+[
+    {
+    "question":"Which of the following is the use of function in python?",
+    "optionA":"Functions are reusable pieces of programs",
+    "optionB":"you can't also create your own functions",
+    "optionC":"Functions don't provide better modularity",
+    "optionD":"All of the above",
+    "answer":"Functions are reusable pieces of programs"
+    },
+
+    {
+        "question": "Which of the following is a feature of DocString?",
+        "optionA": "Associating documentation with Python modules, functions, classes, and methods",
+        "optionB": "All functions should have a docstring",
+        "optionC": "Docstrings can be accessed by the _doc_ attribute on objects",
+        "optionD": "All of the above",
+        "answer": "All of the above"
+    },
+
+    {
+        "question": "Select which true for python function ",
+        "optionA": "Python function doesn't return anything",
+        "optionB": "Python function can return multiple values",
+        "optionC": "Python function can return only a single value",
+        "optionD": "Python doesn't support nested function",
+        "answer": "Python function can return multiple values"
+    },
+
+    {
+        "question": "What is called when a function is defined inside a class?",
+        "optionA": "class",
+        "optionB": "function",
+        "optionC": "method",
+        "optionD": "module",
+        "answer":  "method"
+    },
+
+    {
+        "question": "Which of the following items are present in function header?",
+        "optionA": "function name",
+        "optionB": "parameter list",
+        "optionC": "return value",
+        "optionD": "Both A and B",
+        "answer": "Both A and B"
+    },
+
+    {
+        "question": "What is a recursive function?",
+        "optionA": "A function that calls other function. ",
+        "optionB": "Both A and B",
+        "optionC": "A function which calls itself.",
+        "optionD": "None of the above",
+        "answer": "A function which calls itself."
+    },
+
+    {
+        "question": "Which of the following function headers is correct?",
+        "optionA": "def fun(a=2, b=3, c)",
+        "optionB": "def fun(a=2, b, c=3)",
+        "optionC": "def fun(a, b=2, c=3)",
+        "optionD": "def fun(a, b, c=3, d)",
+        "answer": "def fun(a, b=2, c=3)"
+    },
+
+    {
+        "question": "How is a function declared in Python?",
+        "optionA": "def function function_name():",
+        "optionB": "declare function function_name():",
+        "optionC": "def  function_name():",
+        "optionD": "declare function_name():",
+        "answer": "def  function_name():"
+    },
+    
+
+    {
+        "question": "Which of the following is the use of id() function in python? ",
+        "optionA": "id() returns the size of object.",
+        "optionB": "Both A and B",
+        "optionC": "id() returns the identity of the object.",
+        "optionD": "None of the above",
+        "answer":  "id() returns the identity of the object."
+    },
+    
+    {
+        "question": "If return statement is not used inside the function, the function will return:",
+        "optionA": "None",
+        "optionB": "0",
+        "optionC": "Null",
+        "optionD": "Arbitary value",
+        "answer":  "None"
+    }
+
+  
+]

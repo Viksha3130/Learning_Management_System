@@ -1,0 +1,96 @@
+[
+    {
+    "question":"what part of an if statement should be indented?",
+    "optionA":"The statements within it",
+    "optionB":"The first line",
+    "optionC":"The second line",
+    "optionD":"All of it",
+    "answer":"The statements within it"
+    },
+
+    {
+        "question": "In python program, a control structure:  ",
+        "optionA": "Defines program-specific data structures",
+        "optionB": "Directs the order of execution of the statements in the program",
+        "optionC": "Dictates what happens before the program starts after it terminates",
+        "optionD": "None of the above",
+        "answer": "Directs the order of execution of the statements in the program"
+    },
+
+    {
+        "question": "What will  be output of this expression: ",
+        "question1":"'p' + 'q' if '12'.isdigit() else 'r' + 's' ",
+        "optionA": "pq",
+        "optionB": "rs",
+        "optionC": "pqrs",
+        "optionD": "pq12",
+        "answer": "pq"
+    },
+
+    {
+        "question": "Does python have switch case statement?",
+        "optionA": "True",
+        "optionB": "False",
+        "optionC": "Python has switch statement but we can not use it.",
+        "optionD": "None of the above",
+        "answer":  "False"
+    },
+
+    {
+        "question": "Which of the following is True regarding loops in Python?",
+        "optionA": "Loops should be ended with keyword 'end'",
+        "optionB": "No loop can be used to iterate through the elements of strings.",
+        "optionC": "Keyword 'break' can be used to bring control out of the current loop.",
+        "optionD": "Keyword 'continue' is used to bring control with the remaining statements inside the loop.",
+        "answer": "Keyword 'break' can be used to bring control out of the current loop."
+    },
+
+    {
+        "question": "In programming, what is iteration?",
+        "optionA": "The repetition of steps within a program ",
+        "optionB": "The order in which instructions are carried out",
+        "optionC": "A decision point in a program",
+        "optionD": "Testing a program to make sure it works",
+        "answer": "The repetition of steps within a program "
+    },
+
+    {
+        "question": "Why is iteration important?",
+        "optionA": "It determines the order in which instructions are carried out",
+        "optionB": "It allows multiple paths through a program",
+        "optionC": "It allows code to be simplified by removing duplicated steps",
+        "optionD": "It ensures the code works correctly",
+        "answer": "It allows code to be simplified by removing duplicated steps"
+    },
+
+    {
+        "question": "Loop executed a fixed number of times with a built-in-counter",
+         "question1":"(creating a counter variable is unnecessary). ",
+        "optionA": "While loop",
+        "optionB": "For loop",
+        "optionC": "Repeated loop",
+        "optionD": "if...else",
+        "answer": "For loop"
+    },
+    
+
+    {
+        "question": "Which type of loop iterates until instructed otherwise? ",
+        "optionA": "For loop",
+        "optionB": "A count-controlled loop",
+        "optionC": "Repeat-once loop",
+        "optionD": "While loop",
+        "answer":  "While loop"
+    },
+    
+    {
+        "question": "Which of the following is consider as a infinite loop?",
+        "optionA": "while(infinte):",
+        "optionB": "while(1):",
+        "optionC": "for(1):",
+        "optionD": "None of the above",
+        "answer":  "while(1):"
+    }
+
+  
+]

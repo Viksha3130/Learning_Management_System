@@ -1,0 +1,192 @@
+[
+    {
+    "question":"Which of the following are themselves a collection of different data types?",
+    "optionA":" string",
+    "optionB":"structures",
+    "optionC":"char",
+    "optionD":"all of the mentioned",
+    "answer":"structures"
+    },
+
+    {
+        "question": " Which operator connects the structure name to its member name?",
+        "optionA": "–",
+        "optionB": "<-",
+        "optionC": ".",
+        "optionD": "Both <- and .",
+        "answer": "."
+    },
+
+    {
+        "question": " Which of the following cannot be a structure member? ",
+        "optionA": "Another structure",
+        "optionB": "Function",
+        "optionC": "Array",
+        "optionD": "None of the mentioned",
+        "answer": "Function"
+    },
+
+    {
+        "question": " Which of the following return-type cannot be used for a function in C?",
+        "optionA": "char *",
+        "optionB": "struct",
+        "optionC": "void",
+        "optionD": "none of the mentioned",
+        "answer":  "none of the mentioned"
+    },
+
+    {
+        "question": "Which of the following operation is illegal in structures?",
+        "optionA": "Typecasting of structure",
+        "optionB": "Pointer to a variable of the same structure",
+        "optionC": "Dynamic allocation of memory for structure",
+        "optionD": " All of the mentioned",
+        "answer": "Typecasting of structure"
+    },
+
+    {
+        "question": "Which of the following uses structure?",
+        "optionA": "Array of structures",
+        "optionB": "Linked Lists",
+        "optionC": "Binary Tree",
+        "optionD": "All of the mentioned",
+        "answer": "All of the mentioned"
+    },
+
+    {
+        "question": " What is the correct syntax to declare a function foo() which receives an array of structure in function?",
+        "optionA": "void foo(struct *var);",
+        "optionB": "void foo(struct *var[]);",
+        "optionC": "void foo(struct var);",
+        "optionD": "none of the mentioned",
+        "answer": "void foo(struct *var);"
+    },
+
+    {
+        "question": "Which of the following is an incorrect syntax for pointer to structure?",
+        "question1":"(Assuming struct temp{int b;}*my_struct;)",
+        "optionA": "*my_struct.b = 10;",
+        "optionB": "(*my_struct).b = 10;",
+        "optionC": "my_struct->b = 10;",
+        "optionD": "Both A and B",
+        "answer": "*my_struct.b = 10;"
+    },
+    
+
+    {
+        "question": "Which of the following is not possible regarding the structure variable?",
+        "optionA": "A structure variable pointing to itself",
+        "optionB": "A structure variable pointing to another structure variable of same type",
+        "optionC": "2 different type of structure variable pointing at each other",
+        "optionD": "None of the mentioned",
+        "answer":  "None of the mentioned"
+    },
+    
+    {
+        "question": "Which of the following technique is faster for travelling in binary trees?",
+    
+        "optionA": "Iteration",
+        "optionB": "Recursion",
+        "optionC": "Both Iteration and Recursion",
+        "optionD": "Depends from compiler to compiler",
+        "answer":  "Recursion"
+    },
+    {
+        "question": "Which function is responsible for searching in the table?",
+        "question1":" (For #define IN 1, the name IN and replacement text 1 are stored in a “table”)",
+    
+        "optionA": "findout(s);",
+        "optionB": "lookup(s);",
+        "optionC": "find(s);",
+        "optionD": "lookfor(s);",
+        "answer":  "lookup(s);"
+    },
+    {
+        "question": "Which algorithm is used for searching in the table?",
+    
+        "optionA": "List search",
+        "optionB": "Informed search",
+        "optionC": "Hash search",
+        "optionD": "Adversarial search",
+        "answer":  "Hash search"
+    },
+    {
+        "question": "Which function is responsible for recording the name “s” and the replacement text “t” in a table?",
+    
+        "optionA": "install(s, t);",
+        "optionB": "fix(s, t);",
+        "optionC": "setup(s, t);",
+        "optionD": "ettle(s, t);",
+        "answer":  "install(s, t);"
+    },
+    {
+        "question": "Which of the following is false about typedef?",
+    
+        "optionA": "typedef follow scope rules",
+        "optionB": "You cannot typedef a typedef with other term",
+        "optionC": "typedef defined substitutes can be redefined again. (Eg: typedef char a; typedef int a;)",
+        "optionD": "All of the mentioned",
+        "answer":  "typedef defined substitutes can be redefined again. (Eg: typedef char a; typedef int a;)"
+    },
+    {
+        "question": "typedef int (*PFI)(char *, char *)creates ___________",
+    
+        "optionA": "type PFI, for pointer to function (of two char * arguments) returning int",
+        "optionB": " error",
+        "optionC": "type PFI, function (of two char * arguments) returning int",
+        "optionD": "type PFI, for pointer",
+        "answer":  "type PFI, for pointer to function (of two char * arguments) returning int"
+    },
+    {
+        "question": " The size of a union is determined by the size of the __________",
+    
+        "optionA": "First member in the union",
+        "optionB": "Last member in the union",
+        "optionC": "Biggest member in the union",
+        "optionD": "Sum of the sizes of all members",
+        "answer":  "Biggest member in the union"
+    },
+    {
+        "question": " Presence of loop in a linked list can be tested by ________",
+    
+        "optionA": "Traveling the list, if NULL is encountered no loop exists",
+        "optionB": "Comparing the address of nodes by address of every other node",
+        "optionC": "Comparing the the value stored in a node by a value in every other node",
+        "optionD": "None of the mentioned",
+        "answer":  "Comparing the address of nodes by address of every other node"
+    },
+    {
+        "question": " Which of the following data types are accepted while declaring bit-fields?",
+    
+        "optionA": "char",
+        "optionB": "float",
+        "optionC": " double",
+        "optionD": "none of the mentioned",
+        "answer":  "char"
+    },
+    {
+        "question": "Which of the following reduces the size of a structure?",
+    
+        "optionA": "union",
+        "optionB": "bit-fields",
+        "optionC": "malloc",
+        "optionD": " None of the mentioned",
+        "answer":  "bit-fields"
+    },
+    {
+        "question": "Bit fields can only be declared as part of a structure.",
+    
+        "optionA": " false",
+        "optionB": " true",
+        "optionC": "Nothing",
+        "optionD": " Varies",
+        "answer":  " true"
+    }
+
+
+
+
+
+
+  
+]

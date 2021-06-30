@@ -1,0 +1,56 @@
+h4{
+    padding-left:50%;
+    font-size:2.9em;
+    border-bottom: 1px solid #b2b4b1;
+    color:#353635;
+    margin-bottom: 3%;
+}
+.CardTitle{
+   text-align:center;
+   font-size:25px;
+
+}
+.columnw{
+    max-width: 80%;
+}
+.txtBox{
+    width:100%;
+}
+.inputxt{
+    width:95%;
+    margin:2%;
+    height:20%;
+    padding:2%;
+    font-size: 20px;
+}
+.duration{
+    float:right;
+}
+.vtb{
+    margin:3%;
+    color:#fff;
+ 
+}
+.lk{
+    color: #fff;
+}
+.containers{
+    margin-left:10%;
+}
+.searchs{
+    margin-top:3%;
+    float:right;
+    margin-right:2%;
+}
+.searchss{
+
+    float:right;
+    margin-right:2%;
+}
+.testdetail{
+    margin-top:4%;
+    margin-left:2%;
+}
+.td{
+    margin-left:1%;
+}

@@ -1,0 +1,195 @@
+[
+    {
+    "question":"Comment on the following pointer declaration.",
+    "question1":"int *ptr, p;",
+    "optionA":"ptr is a pointer to integer, p is not",
+    "optionB":"ptr and p, both are pointers to integer",
+    "optionC":"ptr is a pointer to integer, p may or may not be",
+    "optionD":"ptr and p both are not pointers to integer",
+    "answer":"ptr is a pointer to integer, p is not"
+    },
+
+    {
+        "question": "Which of the following is not possible in C?",
+        "optionA": "Array of function pointer",
+        "optionB": "Returning a function pointer",
+        "optionC": "Comparison of function pointer",
+        "optionD": "None of the mentioned",
+        "answer":  "None of the mentioned"
+    },
+
+    {
+        "question": "Which of the following can never be sent by call-by-value?",
+        "optionA": "Variable",
+        "optionB": "Array",
+        "optionC": "Structures",
+        "optionD": "Both Array and Structures",
+        "answer": "Array"
+    },
+
+    {
+        "question": "What are the elements present in the array of the following C code?",
+        "question1":"int array[5] = {5};",
+        "optionA": " 5, 5, 5, 5, 5",
+        "optionB": "5, 0, 0, 0, 0",
+        "optionC": " 5, (garbage), (garbage), (garbage), (garbage)",
+        "optionD": "(garbage), (garbage), (garbage), (garbage), 5",
+        "answer":  "5, 0, 0, 0, 0"
+    },
+
+    {
+        "question": "An array of similar data types which themselves are a collection of dissimilar data type are ___________",
+        "optionA": " Linked Lists",
+        "optionB": "Trees",
+        "optionC": "Array of Structure",
+        "optionD": "All of the mentioned",
+        "answer": "Array of Structure"
+    },
+
+    {
+        "question": "Which of the following arithmetic operation can be applied to pointers a and b?",
+        "question1":"(Assuming initialization as int *a = (int *)2; int *b = (int *)3;)",
+        "optionA": "a + b",
+        "optionB": "a – b",
+        "optionC": " a * b",
+        "optionD": "a / b",
+        "answer": "a – b"
+    },
+
+    {
+        "question": "What type of initialization is needed for the segment “ptr[3] = ‘3’;” to work?",
+        "optionA": " char *ptr = “Hello!”;",
+        "optionB": " both char *ptr = “Hello!”; and char ptr[] = “Hello!”;",
+        "optionC": "char ptr[] = “Hello!”;",
+        "optionD": "none of the mentioned",
+        "answer": "char ptr[] = “Hello!”;"
+    },
+
+    {
+        "question": "What is the first argument in command line arguments?",
+        "optionA": "The number of command-line arguments the program was invoked with;",
+        "optionB": " A pointer to an array of character strings that contain the arguments",
+        "optionC": "Nothing",
+        "optionD": "none of the mentioned",
+        "answer": "The number of command-line arguments the program was invoked with;"
+    },
+    
+
+    {
+        "question": "Calling a function f with a an array variable a[3] where a is an array, is equivalent to __________",
+        "optionA": "f(a[3])",
+        "optionB": " f(*(a + 3))",
+        "optionC": "f(3[a])",
+        "optionD": "all of the mentioned",
+        "answer":  "all of the mentioned"
+    },
+    
+    {
+        "question": " How many number of pointer (*) does C have against a pointer variable declaration?",
+    
+        "optionA": "7",
+        "optionB": "127",
+        "optionC": "255",
+        "optionD": "No limits",
+        "answer":  "No limits"
+    },
+    {
+        "question": " Which of the following declaration will result in run-time error?",
+    
+        "optionA": "int **c = &c;",
+        "optionB": " int **c = &*c;",
+        "optionC": "int **c = **c;",
+        "optionD": "none of the mentioned",
+        "answer":  "none of the mentioned"
+    },
+    {
+        "question": "Which of the following is not possible statically in C?",
+    
+        "optionA": "Jagged Array",
+        "optionB": "Cuboidal Array",
+        "optionC": "Rectangular Array",
+        "optionD": "Multidimensional Array",
+        "answer":  "Jagged Array"
+    },
+    {
+        "question": "What are the applications of a multidimensional array?",
+    
+        "optionA": "Matrix-Multiplication",
+        "optionB": "Minimum Spanning Tree",
+        "optionC": " Finding connectivity between nodes",
+        "optionD": " All of the mentioned",
+        "answer":  " All of the mentioned"
+    },
+    {
+        "question": "What does argc and argv indicate in command-line arguments?",
+        "question1":"(Assuming: int main(int argc, char *argv[]) )",
+    
+        "optionA": "argument count, argument variable",
+        "optionB": "argument count, argument vector",
+        "optionC": "argument control, argument variable",
+        "optionD": " argument control, argument vector",
+        "answer":  "argument count, argument vector"
+    },
+    {
+        "question": "Read the following expression?",
+        "question1":"void (*ptr)(int);",
+    
+        "optionA": "  ptr is pointer to int that converts its type to void",
+        "optionB": " ptr is pointer to void that converts its type to int",
+        "optionC": " ptr is pointer to function passing int returning void",
+        "optionD": "ptr is pointer to function passing void returning int",
+        "answer":  " ptr is pointer to function passing int returning void"
+    },
+    {
+        "question": "Which of the following is a correct syntax to pass a Function Pointer as an argument?",
+    
+        "optionA": "void pass(int (*fptr)){}",
+        "optionB": "void pass(*fptr(int, float, char)){}",
+        "optionC": "void pass(*fptr){}",
+        "optionD": "void pass(int (*fptr)(int, float, char)){}",
+        "answer":  "void pass(int (*fptr)(int, float, char)){}"
+    },
+    {
+        "question": "What is the size of *ptr in a 32-bit machine (Assuming initialization as int *ptr = 10;)?",
+    
+        "optionA": "1",
+        "optionB": "2",
+        "optionC": "4",
+        "optionD": "8",
+        "answer":  "4"
+    },
+    {
+        "question": "What is the maximum number of arguments that can be passed in a single function?",
+    
+        "optionA": "127",
+        "optionB": "361",
+        "optionC": "253",
+        "optionD": "No limits in number of arguments",
+        "answer":  "253"
+    },
+    {
+        "question": "Which of the following does not initialize ptr to null (assuming variable declaration of a as int a=0;)?",
+    
+        "optionA": "int *ptr = &a;",
+        "optionB": "int *ptr = &a – &a;",
+        "optionC": "int *ptr = a – a;",
+        "optionD": "All of the mentioned",
+        "answer":  "int *ptr = &a;"
+    },
+    {
+        "question": "Comment on the following C statement.",
+        "question1":"const int *ptr;",
+        "optionA": "You cannot change the value pointed by ptr",
+        "optionB": " You cannot change the pointer ptr itself",
+        "optionC": " You May or may not change the value pointed by ptr",
+        "optionD": "You can change the pointer as well as the value pointed by it",
+        "answer":  "You cannot change the value pointed by ptr"
+    }
+
+
+
+
+
+
+  
+]

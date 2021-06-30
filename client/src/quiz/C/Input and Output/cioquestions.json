@@ -1,0 +1,190 @@
+[
+    {
+    "question":"Which among the following is the odd one out?",
+    "optionA":"Internal",
+    "optionB":"External",
+    "optionC":"Both Internal and External",
+    "optionD":"None of the mentioned",
+    "answer":"External"
+    },
+
+    {
+        "question": "Property of the external variable to be accessed by any source file is called by the C90 standard as __________",
+        "optionA": "external linkage",
+        "optionB": "external scope",
+        "optionC": " global scope",
+        "optionD": "global linkage",
+        "answer": "external linkage"
+    },
+
+    {
+        "question": " What is the scope of an external variable? ",
+        "optionA": "Whole source file in which it is defined",
+        "optionB": "From the point of declaration to the end of the file in which it is defined",
+        "optionC": " Any source file in a program",
+        "optionD": "From the point of declaration to the end of the file being compiled",
+        "answer": "From the point of declaration to the end of the file being compiled"
+    },
+
+    {
+        "question": " Array sizes are optional during array declaration by using ______ keyword.",
+        "optionA": "auto",
+        "optionB": "static",
+        "optionC": "extern",
+        "optionD": "register",
+        "answer":  "extern"
+    },
+
+    {
+        "question": "Functions have static qualifier for its declaration by default.",
+        "optionA": "True",
+        "optionB": " False",
+        "optionC": "Depends on the compiler",
+        "optionD": " Depends on the standard",
+        "answer": " False"
+    },
+
+    {
+        "question": "   Is initialisation mandatory for local static variables?",
+        "optionA": "Yes",
+        "optionB": "No",
+        "optionC": "Depends on the compiler",
+        "optionD": "Depends on the standard",
+        "answer": "No"
+    },
+
+    {
+        "question": "What is the format identifier for “static a = 20.5;”?",
+        "optionA": "%s",
+        "optionB": " %d",
+        "optionC": " %f",
+        "optionD": " Illegal declaration due to absence of data type",
+        "answer": " %d"
+    },
+
+    {
+        "question": " Which of the following is true for the static variable?",
+        "optionA": " It can be called from another function",
+        "optionB": "It can be modified in another function by sending it as a parameter",
+        "optionC": "It exists even after the function ends",
+        "optionD": "  All of the mentioned",
+        "answer": "It exists even after the function ends"
+    },
+    
+
+    {
+        "question": "Which among the following is wrong for “register int a;”?",
+        "optionA": "Compiler generally ignores the request",
+        "optionB": "You cannot take the address of this variable",
+        "optionC": "Access time to a is critical",
+        "optionD": "None of the mentioned",
+        "answer":  "None of the mentioned"
+    },
+    
+    {
+        "question": " When compiler accepts the request to use the variable as a register?",
+    
+        "optionA": "It is stored in CPU",
+        "optionB": "It is stored in cache memory",
+        "optionC": "It is stored in main memory",
+        "optionD": " It is stored in secondary memory",
+        "answer":  "It is stored in CPU"
+    },
+    {
+        "question": " Property which allows to produce different executable for different platforms in C is called?",
+    
+        "optionA": "Conditional compilation",
+        "optionB": "File inclusion",
+        "optionC": "Selective inclusion",
+        "optionD": "Recursive macros",
+        "answer":  "Conditional compilation"
+    },
+    {
+        "question": " Automatic variables are allocated space in the form of a __________",
+    
+        "optionA": "stack",
+        "optionB": "queue",
+        "optionC": "priority queue",
+        "optionD": "random",
+        "answer":  "stack"
+    },
+    {
+        "question": "If storage class is not specified for a local variable, then the default class will be auto.",
+    
+        "optionA": "True",
+        "optionB": "False",
+        "optionC": "Depends on the standard",
+        "optionD": "None of the mentioned",
+        "answer":  "True"
+    },
+    {
+        "question": " What is the sequence for preprocessor to look for the file within <>?",
+    
+        "optionA": " The predefined location then the current directory",
+        "optionB": "The current directory then the predefined location",
+        "optionC": "The predefined location only",
+        "optionD": "  The current directory location",
+        "answer":  " The predefined location then the current directory"
+    },
+    {
+        "question": " Which directory the compiler first looks for the file when using #include?",
+    
+        "optionA": " Current directory where program is saved",
+        "optionB": "C:COMPILERINCLUDE",
+        "optionC": "S:SOURCEHEADERS",
+        "optionD": "  Both C:COMPILERINCLUDE and S:SOURCEHEADERS simultaneously",
+        "answer":  "C:COMPILERINCLUDE"
+    },
+    {
+        "question": " If the file name is enclosed in angle brackets, then ___________",
+    
+        "optionA": "The preprocessor treats it as a user-defined file",
+        "optionB": "The preprocessor treats it as a user-defined file & system-defined file",
+        "optionC": "The preprocessor treats it as a system-defined file",
+        "optionD": "None of the mentioned",
+        "answer":  "The preprocessor treats it as a system-defined file"
+    },
+    {
+        "question": " What is the advantage of #define over const?",
+    
+        "optionA": "Data type is flexible",
+        "optionB": "Can have a pointer",
+        "optionC": "Reduction in the size of the program",
+        "optionD": "None of the mentioned",
+        "answer":  "Data type is flexible"
+    },
+    {
+        "question": " Which of the following properties of #define is not true?",
+    
+        "optionA": "You can use a pointer to #define",
+        "optionB": " #define can be made externally available",
+        "optionC": "They obey scope rules",
+        "optionD": " All of the mentioned",
+        "answer":  " All of the mentioned"
+    },
+    {
+        "question": " In a conditional inclusion, if the condition that comes after the if is true, then what will happen during compilation?",
+    
+        "optionA": "Then the code up to the following #else or #elif or #endif is compiled",
+        "optionB": "Then the code up to the following #endif is compiled even if #else or #elif is present",
+        "optionC": "Then the code up to the following #eliif is compiled",
+        "optionD": " None of the mentioned",
+        "answer":  "Then the code up to the following #else or #elif or #endif is compiled"
+    },
+    {
+        "question": "For each #if, #ifdef, and #ifndef directive.",
+    
+        "optionA": " There are zero or more #elif directives",
+        "optionB": " Zero or one #else directive",
+        "optionC": "One matching #endif directive",
+        "optionD": "All of the mentioned",
+        "answer":  "All of the mentioned"
+    }
+
+
+
+
+
+
+  
+]

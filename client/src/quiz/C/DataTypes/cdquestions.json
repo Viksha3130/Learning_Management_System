@@ -1,0 +1,96 @@
+[
+    {
+    "question":"C99 standard guarantees uniqueness of  ___________ characters for internal names.",
+    "optionA":"31",
+    "optionB":"63",
+    "optionC":"12",
+    "optionD":"14",
+    "answer":"63"
+    },
+
+    {
+        "question": "Which of the following is true for variable names in C?",
+        "optionA": "They can contain alphanumeric characters as well as special characters",
+        "optionB": "Variable names cannot start with a digit",
+        "optionC": "It is not an error to declare a variable to be one of the keywords",
+        "optionD": "Variable can be of any length",
+        "answer": "Variable names cannot start with a digit"
+    },
+
+    {
+        "question": "Which data type is most suitable for storing a number 65000 in a 32-bit system? ",
+        "optionA": "signed short",
+        "optionB": "unsigned short",
+        "optionC": "long",
+        "optionD": "int",
+        "answer": "unsigned short"
+    },
+
+    {
+        "question": "For which of the following, 'PI++;' code will fail? ",
+        "optionA": "#define PI 3.14",
+        "optionB": "char *PI = 'A'; ",
+        "optionC": "float PI = 3.14; ",
+        "optionD": "None of the above",
+        "answer":  "#define PI 3.14"
+    },
+
+    {
+        "question": "enum types are processed by ",
+        "optionA": "Complier",
+        "optionB": "Preprocessor",
+        "optionC": "Linker",
+        "optionD": "Assembler",
+        "answer": "Complier"
+    },
+
+    {
+        "question": "Which of the following is not a pointer declaration?",
+        "optionA": "char a[10]; ",
+        "optionB": "char a[] = {'1' , '2' , '3' , '4' };",
+        "optionC": "char *str;",
+        "optionD": "char a;",
+        "answer": "char a;"
+    },
+
+    {
+        "question": "When double is converted to float, then the value is ?",
+        "optionA": "Truncated",
+        "optionB": "Rounded",
+        "optionC": "Depends on the complier",
+        "optionD": "Depends on the standard",
+        "answer": "Depends on the complier"
+    },
+
+    {
+        "question": "What will be value of the following assignment expression?",
+        "question1":" (X = foo())!= 1 considering foo() return 2",
+        "optionA": "2",
+        "optionB": "True",
+        "optionC": "1",
+        "optionD": "0",
+        "answer": "2"
+    },
+    
+
+    {
+        "question": "In expression i = g() + f(), first function called depends on _________ ",
+        "optionA": "Complier",
+        "optionB": "Associativity of() operator",
+        "optionC": "Precedence of () and + operator",
+        "optionD": "Left to write of the expression",
+        "answer":  "Complier"
+    },
+    
+    {
+        "question": "Which of the following option is the correct representation of the following C statement?",
+        "question1":" e = a * b + c / d * f;",
+        "optionA": "e = (a * (b +(c /(d * f))));",
+        "optionB": "e = ((a * b) + (c / (d * f)));",
+        "optionC": "e = ((a * b) + ((c / d)* f));",
+        "optionD": "Both B and C",
+        "answer":  "both B and C"
+    }
+
+  
+]

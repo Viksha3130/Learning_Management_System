@@ -1,0 +1,68 @@
+.tick{
+  text-align: center;
+  margin-top: 30px;
+
+}
+h1{
+    color:#72B01D;
+    font-size: 2.5rem;
+}
+.summary{
+    
+    margin-left:10%;
+    margin-right:10%;
+    color: #454955;
+    background-color: #F3EFF5;
+    height: 40%;
+     padding-bottom: 5%;
+}  
+h4{
+    text-align: center;
+    padding-top:5%;
+    font-size: 1.7rem;
+    font-weight: normal;
+    position: relative;
+    margin : 0 ;
+
+}
+h2{
+    text-align: center;
+    color:#284b63;
+    font-size: 40px;
+    font-weight: normal;
+}
+.stat{
+    text-align: left;
+    padding: 10%;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    padding-bottom: 5%;
+    font-size: 1.2rem;
+}
+.rtg{
+
+    float:right;
+   padding-right:10% ;
+    margin-right: 20px;
+    
+    
+    font-size: 1.2rem;
+}
+.home{
+    color:#284b63;
+    font-weight: lighter;
+    border: 1px solid #284b63;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 40%;
+    background-color: #F3EFF5;
+}
+.quizbtn{
+    color:#72B01D;
+    font-weight: lighter;
+    border: 1px solid #72B01D;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 5%;
+    background-color: #F3EFF5;
+}

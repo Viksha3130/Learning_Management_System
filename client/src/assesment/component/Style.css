@@ -1,0 +1,55 @@
+h5{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+h2{
+  
+    margin-top:3%;
+}
+
+
+.containers{
+    margin-left: 10%;
+    width:80%;
+  
+    
+}
+.Testcase{
+    background-color: #e0e0e0;
+    width:100%;
+    padding:3%;
+    font-family: "Lucida Console", Courier, monospace;
+}
+.case{
+    margin-left: 10px;
+}
+
+.problem{
+    margin-left: 5%;
+    
+}
+.codemirror{
+    
+    margin-top:2%;
+    font-size:18px;
+    width:100%;
+    margin-right:0%;
+    height:80%;
+    
+}
+.cm-s-material.CodeMirror {
+    height:100%;
+}
+.custom-file{
+    border:2px solid #e0e0e0;
+    width:30%;
+    height:10%;
+    margin-left:51%;
+    padding:1%;
+}
+.custom-file-label{
+ margin-top:10%;
+ margin-left: 10%;
+ margin-right:10%;
+}

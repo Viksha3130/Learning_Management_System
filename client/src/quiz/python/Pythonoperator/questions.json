@@ -1,0 +1,147 @@
+[
+    {
+    "question":"what is the result of this code?",
+    "question1":">>>print((4+8)/2)",
+    "optionA":"6",
+    "optionB":"6.0",
+    "optionC":"8",
+    "optionD":"8.0",
+    "answer":"6.0"
+    },
+
+    {
+        "question": "Which of these will not be stored as a float?",
+        "optionA": "7.0",
+        "optionB": "2/4",
+        "optionC": "7",
+        "optionD": "21/7",
+        "answer": "7"
+    },
+
+    {
+        "question": "What is the result of this code? ",
+        "question1":" >>7%(5//2)",
+        "optionA": "1",
+        "optionB": "0",
+        "optionC": "7",
+        "optionD": "5",
+        "answer": "1"
+    },
+
+    {
+        "question": "Which line of cone produces an error?",
+        "optionA": " '5' + 6 ",
+        "optionB": " 'one' + '2' ",
+        "optionC": " 3 + 4",
+        "optionD": " '7' + 'eight' ",
+        "answer": " '5' + 6 "
+    },
+
+    {
+        "question": "What is the output of this code?",
+        "question1":"   >>>spam ='sum'" ,
+        "question2":">>>print(spam*3)",
+        "optionA": "sumsumsum",
+        "optionB": "'spamspamspam'",
+        "optionC": "spamspamspam",
+        "optionD": "'sumsumsum'",
+        "answer": "sumsumsum"
+    },
+
+    {
+        "question": "Which of these is a valid variable name in python?",
+        "optionA": "A_VARIABLE_NAME",
+        "optionB": "a-variable-name",
+        "optionC": "a variable name",
+        "optionD": "All the above",
+        "answer": "A_VARIABLE_NAME"
+    },
+
+    {
+        "question": "What is the output of this code? ",
+        "question1":" >>>print('pint('pint')')",
+        "optionA": "An error message",
+        "optionB": "print('print')",
+        "optionC": "'print('print')'",
+        "optionD": "None of the above",
+        "answer": "print('print')"
+    },
+
+    {
+        "question": "What is the output of this code? ",
+        "question1":" >>>int('3' + '4')",
+        "optionA": "34",
+        "optionB": "'7'",
+        "optionC": "'34'",
+        "optionD": "7",
+        "answer": "34"
+    },
+
+    {
+        "question": "What is the output of this code? ",
+        "question1":">>>float('210' * int(input('Enter a number:')))",
+        "question2" : "Enter a number:2",
+        "optionA": "'210210'",
+        "optionB": "420",
+        "optionC": "'420.0'",
+        "optionD": "210210.0",
+        "answer": "210210.0"
+    },
+
+    {
+        "question": "Which lines are executed when a Python file is run?",
+        "optionA": "The first line only",
+        "optionB": "Every line",
+        "optionC": "The first 100 lines",
+        "optionD": "The last line only",
+        "answer": "Every line"
+    },
+
+    {
+        "question": "What is the value of the following expression?",
+        "question1":">>>42%10",
+        "optionA": "10",
+        "optionB": "4210",
+        "optionC": "0.42",
+        "optionD": "2",
+        "answer": "2"
+    },
+
+    {
+        "question": "what will be the value of x after the following statement executes:",
+        "question1":" x= 1 + 2 * 3 - 8 / 4",
+        "optionA": "5.0",
+        "optionC": "1.0",
+        "optionB":"2",
+        "optionD":"3",
+        
+        "answer": "5.0"
+    },
+
+    {
+        "question": "Operators with the same precedence are evaluated in which manner?",
+        "optionA": "Left to Right",
+        "optionB": "Right to Left",
+        "optionC": "Can't say",
+        "optionD": "None of the mentioned",
+        "answer": "Left to Right"
+    },
+
+    {
+        "question": "Which one of the following has the same precedence level",
+        "optionA": "Addition and Subtraction",
+        "optionB": "Multiplication , Division and Addition",
+        "optionC": "Multiplication , Division  , Addition and Subtraction",
+        "optionD": "Addition and Multiplication",
+        "answer": "Addition and Subtraction"
+    },
+
+    {
+        "question": "which function overloads the >> operator?",
+        "optionA": "more()",
+        "optionC": "gt()",
+        "optionB":"ge()",
+        "optionD":"None of the above",
+        "answer": "None of the above"
+    }
+]

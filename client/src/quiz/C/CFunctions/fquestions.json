@@ -1,0 +1,95 @@
+[
+    {
+    "question":"Which of the following is a correct format for declaration of function?",
+    "optionA":"return-type function-name(argument type);",
+    "optionB":"return-type function-name(argument type){}",
+    "optionC":"return-type (argument type)function-name;",
+    "optionD":"all of the mentioned",
+    "answer":"return-type function-name(argument type);"
+    },
+
+    {
+        "question": "Which of the following function declaration is illegal?",
+        "optionA": "int 1bhk(int);",
+        "optionB": "int 1bhk(int a);",
+        "optionC": "int 2bhk(int*, int []);",
+        "optionD": "all of the mentioned",
+        "answer": "all of the mentioned"
+    },
+
+    {
+        "question": "Can we use a function as a parameter of another function? [Eg: void wow(int func())]. ",
+        "optionA": "Yes, and we can use the function value conveniently",
+        "optionB": "No, C does not support it",
+        "optionC": " Yes, but we call the function again to get the value, not as convenient as in using variable",
+        "optionD": " This case is compiler dependent",
+        "answer": "No, C does not support it"
+    },
+
+    {
+        "question": " The value obtained in the function is given back to main by using ________ keyword. ",
+        "optionA": "return",
+        "optionB": "static",
+        "optionC": "new",
+        "optionD": "volatile",
+        "answer":  "return"
+    },
+
+    {
+        "question": "What is the return-type of the function sqrt()?",
+        "optionA": "int",
+        "optionB": "double",
+        "optionC": "float",
+        "optionD": "depends on the data type of the parameter",
+        "answer": "double"
+    },
+
+    {
+        "question": "  Functions can return structure in C?",
+        "optionA": "True",
+        "optionB": "False",
+        "optionC": "Depends on the compiler",
+        "optionD": "Depends on the standard",
+        "answer": "True"
+    },
+
+    {
+        "question": "Functions in C are always _________",
+        "optionA": "Internal",
+        "optionB": " External",
+        "optionC": "External and Internal are not valid terms for functions",
+        "optionD": "Both Internal and External",
+        "answer": " External"
+    },
+
+    {
+        "question": "What is the default return type if it is not specified in function definition?",
+        "optionA": "void",
+        "optionB": "double",
+        "optionC": "int",
+        "optionD": " short int",
+        "answer": "int"
+    },
+    
+
+    {
+        "question": "Which of the following is true about return type of functions in C?",
+        "optionA": "Functions can return any type",
+        "optionB": "Functions can return any type except array, functions and union",
+        "optionC": "Functions can return any type except array and functions",
+        "optionD": "Functions can return any type except array, functions, function pointer and union",
+        "answer":  "Functions can return any type except array and functions"
+    },
+    
+    {
+        "question": " Functions can return enumeration constants in C?",
+    
+        "optionA": "true",
+        "optionB": "false",
+        "optionC": "depends on the compiler",
+        "optionD": "depends on the standard",
+        "answer":  "true"
+    }
+
+  
+]

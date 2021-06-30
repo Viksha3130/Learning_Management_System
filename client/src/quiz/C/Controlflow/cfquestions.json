@@ -1,0 +1,95 @@
+[
+    {
+    "question":"Which of the following is an invalid if-else statement?",
+    "optionA":"if( if ( a == 1 ) ) { }",
+    "optionB":"if ( func1 ( a ) ) { }",
+    "optionC":"if ( a ) { }",
+    "optionD":"if ( ( char ) a ) { }",
+    "answer":"if( if ( a == 1 ) ) { }"
+    },
+
+    {
+        "question": "The C code 'for(;;)' represents an infinte loop. It can be terminated by _________",
+        "optionA": "break",
+        "optionB": "exit(0)",
+        "optionC": "abort()",
+        "optionD": "terminate",
+        "answer": "break"
+    },
+
+    {
+        "question": "Which of the following cannot be used as LHS of the expression in for (exp1;exp2; exp3)? ",
+        "optionA": "variable",
+        "optionB": " function",
+        "optionC": "typedef",
+        "optionD": " macros",
+        "answer": " macros"
+    },
+
+    {
+        "question": " Which keyword is used to come out of a loop only for that iteration? ",
+        "optionA": "break",
+        "optionB": "return",
+        "optionC": "continue",
+        "optionD": "none of the mentioned",
+        "answer":  "continue"
+    },
+
+    {
+        "question": "What is an example of iteration in C?",
+        "optionA": "for",
+        "optionB": " while",
+        "optionC": "do-while",
+        "optionD": "all of the mentioned",
+        "answer": "all of the mentioned"
+    },
+
+    {
+        "question": " Which loop is most suitable to first perform the operation and then test the condition?",
+        "optionA": "for loop ",
+        "optionB": "do-while loop",
+        "optionC": " while loop",
+        "optionD": "none of the mentioned",
+        "answer": "do-while loop"
+    },
+
+    {
+        "question": "The keyword ‘break’ cannot be simply used within _________",
+        "optionA": "do-while",
+        "optionB": "if-else",
+        "optionC": "for",
+        "optionD": "while",
+        "answer": "if-else"
+    },
+
+    {
+        "question": "Which keyword can be used for coming out of recursion?",
+        "optionA": "break",
+        "optionB": "return",
+        "optionC": "exit",
+        "optionD": "both break and return",
+        "answer": "return"
+    },
+    
+
+    {
+        "question": "goto can be used to jump from main() to within a function.",
+        "optionA": "true",
+        "optionB": "false",
+        "optionC": "depends",
+        "optionD": "varies",
+        "answer":  "false"
+    },
+    
+    {
+        "question": "Choose a right C Statement.",
+    
+        "optionA": "Loops or Repetition block executes a group of statements repeatedly.",
+        "optionB": "Loops usually take advantage of Loop Counter",
+        "optionC": "Loop is usually executed as long as a condition is met.",
+        "optionD": " All the above.",
+        "answer":  " All the above."
+    }
+
+  
+]
